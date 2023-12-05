@@ -21,10 +21,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "jsEngine": "jsc",
+      "package": "com.marinbirdie.v8flatlistperfrepro"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "react-native-v8"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "753bd56d-b828-4c81-bef9-4233e554854a"
+      }
     }
   }
 }
